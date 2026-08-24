@@ -9,44 +9,15 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 24
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Install Playwright browsers
-        run: npx playwright install chromium --with-deps
-
-      - name: Verify secrets are set
-        run: |
-          echo "=== DEBUG ==="
-          echo "SUPABASE_URL: $([ -z '$SUPABASE_URL' ] && echo 'MISSING' || echo 'SET')"
-          echo "SUPABASE_KEY: $([ -z '$SUPABASE_KEY' ] && echo 'MISSING' || echo 'SET')"
-          echo "GOOGLE_SHEET_ID: $([ -z '$GOOGLE_SHEET_ID' ] && echo 'MISSING' || echo 'SET')"
-          echo "=== END DEBUG ==="
+          node-version: 20
+      - run: npm install
+      - run: npx playwright install chromium --with-deps
+      - run: node scripts/sync-ads.js
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-
-      - name: Test Google Sheet access
-        run: |
-          echo "Testing Google Sheet CSV export..."
-          curl -sL "https://docs.google.com/spreadsheets/d/$GOOGLE_SHEET_ID/export?format=csv" | head -5
-        env:
-          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-
-      - name: Run sync
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-        run: node scripts/sync-ads.js
