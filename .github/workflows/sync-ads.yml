@@ -20,10 +20,16 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install playwright @supabase/supabase-js
+        run: npm ci
 
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
+
+      - name: Debug — verify secrets
+        run: |
+          echo "SUPABASE_URL set: ${{ secrets.SUPABASE_URL != '' }}"
+          echo "SUPABASE_KEY set: ${{ secrets.SUPABASE_KEY != '' }}"
+          echo "GOOGLE_SHEET_ID set: ${{ secrets.GOOGLE_SHEET_ID != '' }}"
 
       - name: Sync ads
         env:

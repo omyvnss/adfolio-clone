@@ -35,8 +35,14 @@ async function readSheet() {
   const csvUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv`;
   console.log(`   Fetching: ${csvUrl}`);
 
-  const res = await fetch(csvUrl);
-  if (!res.ok) throw new Error(`Failed to fetch sheet: HTTP ${res.status}`);
+  // Follow redirects manually (Google returns a redirect first)
+  let url = csvUrl;
+  let res;
+  for (let i = 0; i < 5; i++) {
+    res = await fetch(url, { redirect: 'follow' });
+    if (res.ok) break;
+    throw new Error(`Failed to fetch sheet: HTTP ${res.status}`);
+  }
 
   const text = await res.text();
 
