@@ -4,12 +4,7 @@
  * Reads rows from public Google Sheet CSV, screenshots each ad with Playwright,
  * uploads to Supabase Storage, inserts into Supabase Database.
  * 
- * Run: node scripts/sync-ads.js
- * 
- * Required env vars:
- *   SUPABASE_URL     — Your Supabase project URL
- *   SUPABASE_KEY     — Your Supabase service_role key
- *   GOOGLE_SHEET_ID  — Google Sheet ID (from the URL)
+ * Handles Vercel bot protection by waiting for challenge page to resolve.
  */
 
 const { chromium } = require('playwright');
@@ -35,18 +30,11 @@ async function readSheet() {
   const csvUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv`;
   console.log(`   Fetching: ${csvUrl}`);
 
-  // Follow redirects manually (Google returns a redirect first)
-  let url = csvUrl;
-  let res;
-  for (let i = 0; i < 5; i++) {
-    res = await fetch(url, { redirect: 'follow' });
-    if (res.ok) break;
-    throw new Error(`Failed to fetch sheet: HTTP ${res.status}`);
-  }
+  const res = await fetch(csvUrl);
+  if (!res.ok) throw new Error(`Failed to fetch sheet: HTTP ${res.status}`);
 
   const text = await res.text();
 
-  // Check if we got HTML instead of CSV (sheet not public)
   if (/^\s*<(?:!doctype|html)/i.test(text)) {
     throw new Error('Got HTML instead of CSV. Make sure your Google Sheet is set to "Anyone with the link can view".');
   }
@@ -106,33 +94,100 @@ async function adExists(supabase, companyName) {
 }
 
 // ============================================================
-// Screenshot with Playwright
+// Capture image using Playwright
+// Handles Vercel challenge pages and direct image URLs
 // ============================================================
 
 async function captureAd(url) {
   const browser = await chromium.launch({
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-blink-features=AutomationControlled',
+    ],
   });
 
   try {
-    const page = await browser.newPage({
+    const context = await browser.newContext({
       viewport: { width: SCREENSHOT_WIDTH, height: SCREENSHOT_HEIGHT },
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
     });
 
+    // Remove webdriver detection
+    await context.addInitScript(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => false });
+    });
+
+    const page = await context.newPage();
+
+    // Navigate with generous timeout
     await page.goto(url, {
-      waitUntil: 'networkidle',
-      timeout: 30000,
+      waitUntil: 'domcontentloaded',
+      timeout: 45000,
     });
 
-    // Wait for lazy-loaded images
-    await page.waitForTimeout(2000);
+    // Wait for Vercel challenge to resolve (if any)
+    // The challenge page runs JS that redirects to the actual content
+    let attempts = 0;
+    while (attempts < 10) {
+      const title = await page.title();
+      const contentUrl = page.url();
 
-    const screenshot = await page.screenshot({
-      type: 'png',
-      fullPage: false,
-    });
+      // If we're still on a challenge page, wait
+      if (title.includes('Just a moment') || title.includes('Challenge')) {
+        await page.waitForTimeout(2000);
+        attempts++;
+        continue;
+      }
 
+      // Check if we got the actual image
+      const contentType = await page.evaluate(() => {
+        return document.contentType || '';
+      });
+
+      if (contentType.startsWith('image/')) {
+        // Direct image — screenshot it
+        const screenshot = await page.screenshot({ type: 'png' });
+        return screenshot;
+      }
+
+      // Check if there's an img tag we can extract
+      const imgBuffer = await page.evaluate(async () => {
+        const img = document.querySelector('img');
+        if (!img) return null;
+
+        // Wait for image to load
+        if (!img.complete) {
+          await new Promise(resolve => {
+            img.onload = resolve;
+            img.onerror = resolve;
+            setTimeout(resolve, 5000);
+          });
+        }
+
+        // Draw to canvas and get blob
+        const canvas = document.createElement('canvas');
+        canvas.width = img.naturalWidth || img.width;
+        canvas.height = img.naturalHeight || img.height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0);
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+        if (!blob) return null;
+        const arrayBuffer = await blob.arrayBuffer();
+        return Array.from(new Uint8Array(arrayBuffer));
+      });
+
+      if (imgBuffer) {
+        return Buffer.from(imgBuffer);
+      }
+
+      break;
+    }
+
+    // Last resort: screenshot whatever is on the page
+    const screenshot = await page.screenshot({ type: 'png', fullPage: false });
     return screenshot;
+
   } finally {
     await browser.close();
   }
@@ -236,7 +291,7 @@ async function sync() {
         continue;
       }
 
-      // Screenshot
+      // Capture
       console.log(`   → Capturing ${entry.imageUrl}...`);
       const screenshot = await captureAd(entry.imageUrl);
 
