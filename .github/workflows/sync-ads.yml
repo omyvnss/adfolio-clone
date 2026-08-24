@@ -2,8 +2,8 @@ name: Sync Ad Screenshots
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:       # Manual trigger button in GitHub UI
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -20,18 +20,31 @@ jobs:
           node-version: 24
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
-      - name: Debug — verify secrets
+      - name: Verify secrets are set
         run: |
-          echo "SUPABASE_URL set: ${{ secrets.SUPABASE_URL != '' }}"
-          echo "SUPABASE_KEY set: ${{ secrets.SUPABASE_KEY != '' }}"
-          echo "GOOGLE_SHEET_ID set: ${{ secrets.GOOGLE_SHEET_ID != '' }}"
+          echo "=== DEBUG ==="
+          echo "SUPABASE_URL: $([ -z '$SUPABASE_URL' ] && echo 'MISSING' || echo 'SET')"
+          echo "SUPABASE_KEY: $([ -z '$SUPABASE_KEY' ] && echo 'MISSING' || echo 'SET')"
+          echo "GOOGLE_SHEET_ID: $([ -z '$GOOGLE_SHEET_ID' ] && echo 'MISSING' || echo 'SET')"
+          echo "=== END DEBUG ==="
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
 
-      - name: Sync ads
+      - name: Test Google Sheet access
+        run: |
+          echo "Testing Google Sheet CSV export..."
+          curl -sL "https://docs.google.com/spreadsheets/d/$GOOGLE_SHEET_ID/export?format=csv" | head -5
+        env:
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+
+      - name: Run sync
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
