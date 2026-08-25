@@ -1,8 +1,8 @@
 {
-  "count": 142,
+  "count": 140,
   "total": 161,
-  "dead": 19,
-  "updated": "2026-08-24T14:36:31.232Z",
+  "dead": 21,
+  "updated": "2026-08-25T03:35:15.640Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -311,11 +311,6 @@
     },
     {
       "url": "lorenzodelijser.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "nickdilallo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -646,11 +641,6 @@
     },
     {
       "url": "felipe.design",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "eryc.cc",
       "date": "2026-08-24",
       "status": "ok"
     },
