@@ -1,8 +1,8 @@
 {
-  "count": 140,
+  "count": 141,
   "total": 161,
-  "dead": 21,
-  "updated": "2026-08-25T06:37:02.720Z",
+  "dead": 20,
+  "updated": "2026-08-25T07:39:24.156Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -315,6 +315,11 @@
       "status": "ok"
     },
     {
+      "url": "nickdilallo.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "rauchg.com",
       "date": "2026-08-24",
       "status": "ok"
@@ -400,6 +405,11 @@
       "status": "ok"
     },
     {
+      "url": "marcusfarrell.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "udara.io",
       "date": "2026-08-24",
       "status": "ok"
@@ -446,11 +456,6 @@
     },
     {
       "url": "cameron.so",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "somoscuchillo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
