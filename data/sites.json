@@ -1,8 +1,8 @@
 {
-  "count": 140,
+  "count": 141,
   "total": 161,
-  "dead": 21,
-  "updated": "2026-08-25T03:35:15.640Z",
+  "dead": 20,
+  "updated": "2026-08-25T03:43:32.875Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -315,17 +315,17 @@
       "status": "ok"
     },
     {
+      "url": "nickdilallo.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "rauchg.com",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
       "url": "evilrabbit.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jasonyuan.design",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -641,6 +641,11 @@
     },
     {
       "url": "felipe.design",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "eryc.cc",
       "date": "2026-08-24",
       "status": "ok"
     },
