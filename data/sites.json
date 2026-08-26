@@ -1,8 +1,8 @@
 {
-  "count": 138,
+  "count": 142,
   "total": 161,
-  "dead": 23,
-  "updated": "2026-08-26T14:39:57.096Z",
+  "dead": 19,
+  "updated": "2026-08-26T16:13:44.558Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -185,6 +185,16 @@
       "status": "ok"
     },
     {
+      "url": "alasdairmonk.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "sonderpoems.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "rokadakia.com",
       "date": "2026-08-21",
       "status": "ok"
@@ -195,7 +205,17 @@
       "status": "ok"
     },
     {
+      "url": "ragojose.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "victorlbq.fr",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "baytas.net",
       "date": "2026-08-21",
       "status": "ok"
     },
