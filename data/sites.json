@@ -1,8 +1,8 @@
 {
-  "count": 141,
+  "count": 140,
   "total": 161,
-  "dead": 20,
-  "updated": "2026-09-02T20:55:07.547Z",
+  "dead": 21,
+  "updated": "2026-09-02T21:31:38.842Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -521,11 +521,6 @@
     },
     {
       "url": "tcosta.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "alexnaghavi.com",
       "date": "2026-08-24",
       "status": "ok"
     },
