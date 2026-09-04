@@ -1,8 +1,8 @@
 {
-  "count": 140,
+  "count": 141,
   "total": 161,
-  "dead": 21,
-  "updated": "2026-09-04T14:43:20.753Z",
+  "dead": 20,
+  "updated": "2026-09-04T18:00:02.724Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -451,6 +451,11 @@
     },
     {
       "url": "cameron.so",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "somoscuchillo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
