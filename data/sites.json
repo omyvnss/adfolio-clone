@@ -1,8 +1,8 @@
 {
-  "count": 140,
+  "count": 141,
   "total": 161,
-  "dead": 21,
-  "updated": "2026-09-04T22:44:15.197Z",
+  "dead": 20,
+  "updated": "2026-09-05T00:34:30.573Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -666,6 +666,11 @@
     },
     {
       "url": "2dots.xyz",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "once.com",
       "date": "2026-08-24",
       "status": "ok"
     },
