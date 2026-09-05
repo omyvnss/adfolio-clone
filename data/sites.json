@@ -1,8 +1,8 @@
 {
-  "count": 139,
+  "count": 141,
   "total": 161,
-  "dead": 22,
-  "updated": "2026-09-05T18:45:31.923Z",
+  "dead": 20,
+  "updated": "2026-09-05T20:54:45.708Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -206,6 +206,11 @@
     },
     {
       "url": "ragojose.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "victorlbq.fr",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -636,6 +641,11 @@
     },
     {
       "url": "felipe.design",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "eryc.cc",
       "date": "2026-08-24",
       "status": "ok"
     },
