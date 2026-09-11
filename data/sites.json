@@ -1,8 +1,8 @@
 {
-  "count": 140,
+  "count": 141,
   "total": 161,
-  "dead": 21,
-  "updated": "2026-09-11T18:07:25.594Z",
+  "dead": 20,
+  "updated": "2026-09-11T21:31:25.898Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -641,6 +641,11 @@
     },
     {
       "url": "felipe.design",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "eryc.cc",
       "date": "2026-08-24",
       "status": "ok"
     },
