@@ -2,7 +2,7 @@
   "count": 140,
   "total": 161,
   "dead": 21,
-  "updated": "2026-09-11T10:28:50.785Z",
+  "updated": "2026-09-11T14:49:05.785Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -306,6 +306,11 @@
     },
     {
       "url": "lorenzodelijser.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "nickdilallo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -631,11 +636,6 @@
     },
     {
       "url": "prateekkeshari.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "felipe.design",
       "date": "2026-08-24",
       "status": "ok"
     },
