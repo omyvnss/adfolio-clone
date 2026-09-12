@@ -1,8 +1,8 @@
 {
-  "count": 141,
+  "count": 142,
   "total": 161,
-  "dead": 20,
-  "updated": "2026-09-11T23:49:19.905Z",
+  "dead": 19,
+  "updated": "2026-09-12T02:46:51.741Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -346,6 +346,11 @@
     },
     {
       "url": "pixelwrld.co",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "jasur.io",
       "date": "2026-08-24",
       "status": "ok"
     },
