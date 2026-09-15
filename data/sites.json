@@ -1,8 +1,8 @@
 {
-  "count": 141,
+  "count": 138,
   "total": 161,
-  "dead": 20,
-  "updated": "2026-09-15T10:53:53.256Z",
+  "dead": 23,
+  "updated": "2026-09-15T15:25:06.589Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -210,11 +210,6 @@
       "status": "ok"
     },
     {
-      "url": "victorlbq.fr",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
       "url": "baytas.net",
       "date": "2026-08-21",
       "status": "ok"
@@ -300,17 +295,7 @@
       "status": "ok"
     },
     {
-      "url": "benja.dev",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "lorenzodelijser.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "nickdilallo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -426,11 +411,6 @@
     },
     {
       "url": "borys.is",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jetset.nl",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -641,6 +621,11 @@
     },
     {
       "url": "prateekkeshari.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "felipe.design",
       "date": "2026-08-24",
       "status": "ok"
     },
