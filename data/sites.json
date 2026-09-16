@@ -1,8 +1,8 @@
 {
-  "count": 142,
+  "count": 140,
   "total": 161,
-  "dead": 19,
-  "updated": "2026-09-16T15:18:05.311Z",
+  "dead": 21,
+  "updated": "2026-09-16T19:19:24.729Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -206,11 +206,6 @@
     },
     {
       "url": "ragojose.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "victorlbq.fr",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -426,11 +421,6 @@
     },
     {
       "url": "borys.is",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jetset.nl",
       "date": "2026-08-24",
       "status": "ok"
     },
