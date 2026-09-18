@@ -1,8 +1,8 @@
 {
-  "count": 142,
+  "count": 141,
   "total": 161,
-  "dead": 19,
-  "updated": "2026-09-18T02:49:28.532Z",
+  "dead": 20,
+  "updated": "2026-09-18T13:54:42.632Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -476,11 +476,6 @@
     },
     {
       "url": "amirmxt.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "andrs.me",
       "date": "2026-08-24",
       "status": "ok"
     },
