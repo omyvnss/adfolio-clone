@@ -1,8 +1,8 @@
 {
-  "count": 142,
+  "count": 140,
   "total": 161,
-  "dead": 19,
-  "updated": "2026-09-27T06:05:40.871Z",
+  "dead": 21,
+  "updated": "2026-09-27T12:39:12.683Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -206,11 +206,6 @@
     },
     {
       "url": "ragojose.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "victorlbq.fr",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -511,11 +506,6 @@
     },
     {
       "url": "carlbeaverson.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jrosen.design",
       "date": "2026-08-24",
       "status": "ok"
     },
