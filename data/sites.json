@@ -1,8 +1,8 @@
 {
-  "count": 140,
+  "count": 142,
   "total": 161,
-  "dead": 21,
-  "updated": "2026-09-27T23:33:39.803Z",
+  "dead": 19,
+  "updated": "2026-09-28T03:12:06.587Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -430,6 +430,11 @@
       "status": "ok"
     },
     {
+      "url": "jetset.nl",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "kyler.design",
       "date": "2026-08-24",
       "status": "ok"
@@ -516,6 +521,11 @@
     },
     {
       "url": "tcosta.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "alexnaghavi.com",
       "date": "2026-08-24",
       "status": "ok"
     },
