@@ -2,7 +2,7 @@
   "count": 142,
   "total": 161,
   "dead": 19,
-  "updated": "2026-09-29T03:50:04.878Z",
+  "updated": "2026-09-29T10:20:27.729Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -206,11 +206,6 @@
     },
     {
       "url": "ragojose.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "victorlbq.fr",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -596,6 +591,11 @@
     },
     {
       "url": "naveen.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "findaboxing.club",
       "date": "2026-08-24",
       "status": "ok"
     },
