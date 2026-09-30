@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 142,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-09-30T00:58:26.824Z",
+  "dead": 19,
+  "updated": "2026-09-30T06:24:25.053Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -306,11 +306,6 @@
     },
     {
       "url": "lorenzodelijser.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "nickdilallo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
