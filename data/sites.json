@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 142,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-10-06T04:28:10.461Z",
+  "dead": 19,
+  "updated": "2026-10-06T11:42:17.955Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -631,11 +631,6 @@
     },
     {
       "url": "arsenije.me",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "hiasmir.com",
       "date": "2026-08-24",
       "status": "ok"
     },
