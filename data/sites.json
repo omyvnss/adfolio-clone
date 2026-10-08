@@ -1,8 +1,8 @@
 {
-  "count": 122,
+  "count": 142,
   "total": 161,
-  "dead": 39,
-  "updated": "2026-10-08T08:20:37.011Z",
+  "dead": 19,
+  "updated": "2026-10-08T16:04:07.590Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -35,6 +35,11 @@
       "status": "ok"
     },
     {
+      "url": "saadb.me",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "adikris.in",
       "date": "2026-08-21",
       "status": "ok"
@@ -60,7 +65,17 @@
       "status": "ok"
     },
     {
+      "url": "aniketpawar.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "tldr.aryank.space",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "dqnamo.com",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -220,6 +235,11 @@
       "status": "ok"
     },
     {
+      "url": "mononym.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "15min.design",
       "date": "2026-08-21",
       "status": "ok"
@@ -230,12 +250,47 @@
       "status": "ok"
     },
     {
+      "url": "faizanwar.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "leerob.com",
       "date": "2026-08-21",
       "status": "ok"
     },
     {
+      "url": "anzy.io",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "armond.me",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "rokadakia.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "sanyam.sh",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "xchyler.works",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "flohoeller.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "eduardwieandt.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -265,6 +320,11 @@
       "status": "ok"
     },
     {
+      "url": "evilrabbit.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "jasonyuan.design",
       "date": "2026-08-24",
       "status": "ok"
@@ -275,12 +335,22 @@
       "status": "ok"
     },
     {
+      "url": "kundo.studio",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "paolonessim.com",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
       "url": "pixelwrld.co",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "jasur.io",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -335,6 +405,11 @@
       "status": "ok"
     },
     {
+      "url": "marcusfarrell.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "udara.io",
       "date": "2026-08-24",
       "status": "ok"
@@ -351,6 +426,11 @@
     },
     {
       "url": "borys.is",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "jetset.nl",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -445,6 +525,11 @@
       "status": "ok"
     },
     {
+      "url": "alexnaghavi.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "navchatterji.com",
       "date": "2026-08-24",
       "status": "ok"
@@ -525,6 +610,11 @@
       "status": "ok"
     },
     {
+      "url": "otherdays.studio",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "thisisveryrude.com",
       "date": "2026-08-24",
       "status": "ok"
@@ -536,6 +626,11 @@
     },
     {
       "url": "gav.space",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "arsenije.me",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -561,6 +656,11 @@
     },
     {
       "url": "reaper.is",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "paco.me",
       "date": "2026-08-24",
       "status": "ok"
     },
