@@ -1,8 +1,8 @@
 {
-  "count": 121,
+  "count": 142,
   "total": 161,
-  "dead": 40,
-  "updated": "2026-10-09T01:41:42.475Z",
+  "dead": 19,
+  "updated": "2026-10-09T08:22:05.236Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -31,6 +31,11 @@
     },
     {
       "url": "senyil.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "saadb.me",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -66,6 +71,11 @@
     },
     {
       "url": "tldr.aryank.space",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "dqnamo.com",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -265,6 +275,26 @@
       "status": "ok"
     },
     {
+      "url": "sanyam.sh",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "xchyler.works",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "flohoeller.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "eduardwieandt.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "aniket.fyi",
       "date": "2026-08-24",
       "status": "ok"
@@ -305,12 +335,22 @@
       "status": "ok"
     },
     {
+      "url": "kundo.studio",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "paolonessim.com",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
       "url": "pixelwrld.co",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "jasur.io",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -335,7 +375,17 @@
       "status": "ok"
     },
     {
+      "url": "shawnfarsai.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "kylethacker.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "christinalj.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -355,7 +405,42 @@
       "status": "ok"
     },
     {
+      "url": "marcusfarrell.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "udara.io",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "bridger.to",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "prosper.org",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "borys.is",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "jetset.nl",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "kyler.design",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "suresh.im",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -525,6 +610,11 @@
       "status": "ok"
     },
     {
+      "url": "otherdays.studio",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "thisisveryrude.com",
       "date": "2026-08-24",
       "status": "ok"
@@ -535,7 +625,17 @@
       "status": "ok"
     },
     {
+      "url": "gav.space",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "arsenije.me",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "prateekkeshari.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -556,6 +656,11 @@
     },
     {
       "url": "reaper.is",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "paco.me",
       "date": "2026-08-24",
       "status": "ok"
     },
