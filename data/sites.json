@@ -1,8 +1,8 @@
 {
-  "count": 142,
+  "count": 143,
   "total": 161,
-  "dead": 19,
-  "updated": "2026-10-12T20:47:42.100Z",
+  "dead": 18,
+  "updated": "2026-10-13T02:23:06.815Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -201,6 +201,11 @@
     },
     {
       "url": "pqoqubbw.dev",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "ragojose.com",
       "date": "2026-08-21",
       "status": "ok"
     },
