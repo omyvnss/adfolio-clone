@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 113,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-10-14T07:01:20.445Z",
+  "dead": 48,
+  "updated": "2026-10-14T13:16:41.717Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -65,22 +65,7 @@
       "status": "ok"
     },
     {
-      "url": "aniketpawar.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
       "url": "tldr.aryank.space",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "dqnamo.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "gharbi.me",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -106,11 +91,6 @@
     },
     {
       "url": "joshmillgate.co.uk",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "mocarski.design",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -250,57 +230,12 @@
       "status": "ok"
     },
     {
-      "url": "faizanwar.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
       "url": "leerob.com",
       "date": "2026-08-21",
       "status": "ok"
     },
     {
-      "url": "anzy.io",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "armond.me",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "margins.app",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
       "url": "rokadakia.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "sanyam.sh",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "xchyler.works",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "flohoeller.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "eduardwieandt.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "aniket.fyi",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -325,11 +260,6 @@
       "status": "ok"
     },
     {
-      "url": "evilrabbit.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "jasonyuan.design",
       "date": "2026-08-24",
       "status": "ok"
@@ -340,27 +270,7 @@
       "status": "ok"
     },
     {
-      "url": "kundo.studio",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "paolonessim.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "pixelwrld.co",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jasur.io",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "lucchaissac.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -375,22 +285,7 @@
       "status": "ok"
     },
     {
-      "url": "laurendorman.io",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "shawnfarsai.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "kylethacker.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "christinalj.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -410,32 +305,12 @@
       "status": "ok"
     },
     {
-      "url": "marcusfarrell.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "udara.io",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "bridger.to",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
       "url": "prosper.org",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "borys.is",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jetset.nl",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -615,11 +490,6 @@
       "status": "ok"
     },
     {
-      "url": "otherdays.studio",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "thisisveryrude.com",
       "date": "2026-08-24",
       "status": "ok"
@@ -630,32 +500,12 @@
       "status": "ok"
     },
     {
-      "url": "gav.space",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "arsenije.me",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
-      "url": "prateekkeshari.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "felipe.design",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
       "url": "eryc.cc",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "bmrks.com",
       "date": "2026-08-24",
       "status": "ok"
     },
