@@ -1,8 +1,8 @@
 {
-  "count": 144,
+  "count": 143,
   "total": 161,
-  "dead": 17,
-  "updated": "2026-10-17T19:59:28.055Z",
+  "dead": 18,
+  "updated": "2026-10-17T22:06:59.744Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -206,11 +206,6 @@
     },
     {
       "url": "ragojose.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "victorlbq.fr",
       "date": "2026-08-21",
       "status": "ok"
     },
