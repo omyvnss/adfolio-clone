@@ -1,8 +1,8 @@
 {
-  "count": 112,
+  "count": 143,
   "total": 161,
-  "dead": 49,
-  "updated": "2026-10-21T12:42:00.593Z",
+  "dead": 18,
+  "updated": "2026-10-21T17:50:19.673Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -31,6 +31,11 @@
     },
     {
       "url": "senyil.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "saadb.me",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -250,12 +255,22 @@
       "status": "ok"
     },
     {
+      "url": "faizanwar.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
       "url": "leerob.com",
       "date": "2026-08-21",
       "status": "ok"
     },
     {
       "url": "anzy.io",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "armond.me",
       "date": "2026-08-21",
       "status": "ok"
     },
@@ -270,7 +285,27 @@
       "status": "ok"
     },
     {
+      "url": "sanyam.sh",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "xchyler.works",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "flohoeller.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "eduardwieandt.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "aniket.fyi",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -295,6 +330,11 @@
       "status": "ok"
     },
     {
+      "url": "evilrabbit.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "jasonyuan.design",
       "date": "2026-08-24",
       "status": "ok"
@@ -305,7 +345,57 @@
       "status": "ok"
     },
     {
+      "url": "kundo.studio",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "paolonessim.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "pixelwrld.co",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "jasur.io",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "lucchaissac.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "max.dev",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "roko-g.work",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "laurendorman.io",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "shawnfarsai.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "kylethacker.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "christinalj.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -325,12 +415,57 @@
       "status": "ok"
     },
     {
+      "url": "marcusfarrell.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "udara.io",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "bridger.to",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "prosper.org",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "borys.is",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "kyler.design",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "suresh.im",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "udeet.in",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "jasonjun.dev",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
       "url": "cameron.so",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "somoscuchillo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
@@ -480,12 +615,32 @@
       "status": "ok"
     },
     {
+      "url": "otherdays.studio",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "thisisveryrude.com",
       "date": "2026-08-24",
       "status": "ok"
     },
     {
       "url": "goods.so",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "gav.space",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "arsenije.me",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "prateekkeshari.com",
       "date": "2026-08-24",
       "status": "ok"
     },
