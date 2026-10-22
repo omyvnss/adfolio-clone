@@ -1,8 +1,8 @@
 {
-  "count": 141,
+  "count": 143,
   "total": 161,
-  "dead": 20,
-  "updated": "2026-10-22T00:22:29.464Z",
+  "dead": 18,
+  "updated": "2026-10-22T05:40:46.844Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -320,6 +320,11 @@
       "status": "ok"
     },
     {
+      "url": "nickdilallo.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "rauchg.com",
       "date": "2026-08-24",
       "status": "ok"
@@ -551,6 +556,11 @@
     },
     {
       "url": "thisispam.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "omercan.io",
       "date": "2026-08-24",
       "status": "ok"
     },
