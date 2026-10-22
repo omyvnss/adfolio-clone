@@ -2,7 +2,7 @@
   "count": 143,
   "total": 161,
   "dead": 18,
-  "updated": "2026-10-22T11:00:47.960Z",
+  "updated": "2026-10-22T16:29:17.560Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -440,6 +440,11 @@
       "status": "ok"
     },
     {
+      "url": "jetset.nl",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
       "url": "kyler.design",
       "date": "2026-08-24",
       "status": "ok"
@@ -461,11 +466,6 @@
     },
     {
       "url": "cameron.so",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "somoscuchillo.com",
       "date": "2026-08-24",
       "status": "ok"
     },
