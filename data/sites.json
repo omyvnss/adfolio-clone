@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 144,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-10-25T18:02:42.493Z",
+  "dead": 17,
+  "updated": "2026-10-25T21:21:15.628Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -646,6 +646,11 @@
     },
     {
       "url": "prateekkeshari.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "felipe.design",
       "date": "2026-08-24",
       "status": "ok"
     },
