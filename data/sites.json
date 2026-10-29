@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 144,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-10-29T11:14:20.698Z",
+  "dead": 17,
+  "updated": "2026-10-29T17:55:18.933Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -96,6 +96,11 @@
     },
     {
       "url": "hamzaalabou.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "stylessh.dev",
       "date": "2026-08-21",
       "status": "ok"
     },
