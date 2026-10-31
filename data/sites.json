@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 144,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-10-30T21:19:50.508Z",
+  "dead": 17,
+  "updated": "2026-10-31T01:22:22.996Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -681,6 +681,11 @@
     },
     {
       "url": "tr.af",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "once.com",
       "date": "2026-08-24",
       "status": "ok"
     },
