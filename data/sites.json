@@ -1,8 +1,8 @@
 {
-  "count": 144,
+  "count": 143,
   "total": 161,
-  "dead": 17,
-  "updated": "2026-10-31T22:59:09.251Z",
+  "dead": 18,
+  "updated": "2026-11-01T02:00:08.789Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -146,11 +146,6 @@
     },
     {
       "url": "nutlope.com",
-      "date": "2026-08-21",
-      "status": "ok"
-    },
-    {
-      "url": "adriengriveau.com",
       "date": "2026-08-21",
       "status": "ok"
     },
