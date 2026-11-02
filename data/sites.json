@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 144,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-11-01T20:55:46.921Z",
+  "dead": 17,
+  "updated": "2026-11-02T00:11:23.477Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -191,6 +191,11 @@
     },
     {
       "url": "sonderpoems.com",
+      "date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "url": "rokadakia.com",
       "date": "2026-08-21",
       "status": "ok"
     },
