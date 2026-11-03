@@ -1,8 +1,8 @@
 {
-  "count": 144,
+  "count": 145,
   "total": 161,
-  "dead": 17,
-  "updated": "2026-11-03T15:44:45.208Z",
+  "dead": 16,
+  "updated": "2026-11-03T21:27:04.824Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -446,6 +446,11 @@
     },
     {
       "url": "kyler.design",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "zaidmukaddam.com",
       "date": "2026-08-24",
       "status": "ok"
     },
