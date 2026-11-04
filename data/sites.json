@@ -1,8 +1,8 @@
 {
-  "count": 145,
+  "count": 144,
   "total": 161,
-  "dead": 16,
-  "updated": "2026-11-04T08:29:14.284Z",
+  "dead": 17,
+  "updated": "2026-11-04T16:46:28.077Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -611,11 +611,6 @@
     },
     {
       "url": "naveen.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "findaboxing.club",
       "date": "2026-08-24",
       "status": "ok"
     },
