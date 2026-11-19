@@ -1,8 +1,8 @@
 {
-  "count": 142,
+  "count": 143,
   "total": 161,
-  "dead": 19,
-  "updated": "2026-11-19T00:55:56.071Z",
+  "dead": 18,
+  "updated": "2026-11-19T08:20:59.588Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -276,6 +276,11 @@
     },
     {
       "url": "rokadakia.com",
+      "date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "url": "sanyam.sh",
       "date": "2026-08-24",
       "status": "ok"
     },
