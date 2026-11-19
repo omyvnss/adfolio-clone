@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 142,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-11-19T08:20:59.588Z",
+  "dead": 19,
+  "updated": "2026-11-19T17:55:39.784Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -431,11 +431,6 @@
     },
     {
       "url": "borys.is",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "jetset.nl",
       "date": "2026-08-24",
       "status": "ok"
     },
