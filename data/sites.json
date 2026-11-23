@@ -1,8 +1,8 @@
 {
-  "count": 143,
+  "count": 142,
   "total": 161,
-  "dead": 18,
-  "updated": "2026-11-22T21:27:35.619Z",
+  "dead": 19,
+  "updated": "2026-11-23T02:08:19.360Z",
   "sites": [
     {
       "url": "nilseller.com",
@@ -601,11 +601,6 @@
     },
     {
       "url": "andymccune.com",
-      "date": "2026-08-24",
-      "status": "ok"
-    },
-    {
-      "url": "naveen.com",
       "date": "2026-08-24",
       "status": "ok"
     },
